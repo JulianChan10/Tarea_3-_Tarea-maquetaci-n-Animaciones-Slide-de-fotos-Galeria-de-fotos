@@ -14,7 +14,7 @@
 
     .contenedor_menu {
         width: 100%;
-        /* display: none;  */
+        display: none;  
     }
 
     .contenedor_menu nav ul {
