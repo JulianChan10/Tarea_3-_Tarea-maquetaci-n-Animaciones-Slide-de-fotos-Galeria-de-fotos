@@ -1,0 +1,120 @@
+
+@media screen and (max-width: 768px) {
+    .contenedor_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px black solid; */
+        width: 100%;
+    }
+    .icono_menu{
+        display: flex;
+        font-size: 24px;
+    }
+
+    .contenedor_menu {
+        width: 100%;
+        /* display: none;  */
+    }
+
+    .contenedor_menu nav ul {
+        flex-direction: column;
+        background-color: #ff4048;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .contenedor_menu nav ul li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .contenedor_menu nav ul li a {
+        color: white;
+        font-weight: bold;
+        display: block;
+        border-bottom: 1px white dotted;
+    }
+
+    .contenedor_cabecera {
+        justify-content: space-between;
+    }
+
+
+/* Slide de fotos */
+    .filtro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .info_texto {
+        background-color: rgba(255, 0, 0, 0.4);
+        padding: 20px 50px;
+        margin-left: 60px;
+        /* border: 1px black solid; */
+    }
+
+    .titulo {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .subtitulo{
+        display: none;
+    }
+
+    .btn_rojo {
+        display: block;
+        background-color: #ff4048;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+    .btn_rojo:hover {
+        background-color: #eee;
+        color: #c00;
+    }
+
+    /* ------------------------------------------ */
+
+    .info_servicios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        /* border: 1px black solid; */
+    }
+
+    .contenedor_galeria {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .galeria_imagenes {
+        grid-template-columns: 1fr;
+    }
+    .informacion_galeria{
+        text-align: start;
+    }
+
+    .informacion_galeria .btn_rojo{
+        display: block;
+    }
+
+    .footer{
+        border: none;
+    }
+
+    .footer_contenido{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_contenido p{
+        display: none;
+    }
+}
